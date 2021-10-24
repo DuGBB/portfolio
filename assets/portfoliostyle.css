@@ -20,24 +20,23 @@ header h1 {
     font-weight: bold;
 }
 
-header h1 a { /* changed the color of the seo in Horiseon/title*/
+header h1 a { 
     color: rgb(207, 182, 182);
     background-color: rgb(62, 26, 160);
-    padding: 20px 20px 20px 70px;
-    margin-left: 0;
+    padding: 4px 8px 10px 70px;
 }
 
-header a { /* added header element to specify location*/
+header a { 
     text-decoration: underline;
     color: rgb(167, 21, 21);
 }
 
-header nav { /*added to align header*/
+header nav { 
     float: right;
     margin: 8px 0;
 }
 
-.keys { /* added class name in header*/
+.keys { 
     display: inline-block;
     font-weight: lighter;
     font-size: 20px;
@@ -56,12 +55,45 @@ p {
 
 .work {
     height: 200px;
-    width: auto;
+    width: 100% 100%;
     margin-bottom: 25px;
     background-image: url("images/tigWeld.jpeg");
     background-size: 100% 100%; /* changed to percentages to improve load time. */
     background-position: center;
     text-align: right;
+}
+
+.primary_image {
+    height: auto;
+    width: 100%;
+    display: flexbox;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-spacing: 0px 5px;
+    float: left;
+}
+
+.primary {
+    height: auto;
+    width: 100%;
+    background-color: tomato;
+}
+
+.secondary_images {
+    height: 133px;
+    width: 393px;
+    margin: 20px 0px;
+    display: flex;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.secondary {
+    height: auto;
+    width: 100%;
+    background-color:turquoise;
 }
 
 .title_block p {
@@ -79,10 +111,10 @@ p {
 .sub_title {
     text-align: center;
     background-color: pink;
-    padding: 20px, 20px;
+    padding: 10px, 10px;
     width: 280px;
     height: 60px;
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 20px;
     margin-left: auto;
     margin-top: 130px;
@@ -91,8 +123,8 @@ p {
 
 .row_format {
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .vl {
@@ -113,3 +145,35 @@ p {
     font-size: 20px;
     margin-left: 15px;
 }
+
+table {
+   border-spacing: 10px 10px 10px 0px;
+   background-color: yellowgreen; 
+   width: 100%;
+}
+
+.work_left {
+    float: left;
+}
+
+.work_right {
+    float: right;
+}
+
+.content img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+}
+
+.footer_content {
+    text-align: center;
+    line-height: initial;
+    height:inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: lemonchiffon;
+}
+
