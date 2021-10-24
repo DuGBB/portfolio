@@ -1,0 +1,181 @@
+<<<<<<< Updated upstream
+=======
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header { 
+    padding: 30px 30px 30px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #7a7a7a;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header h1 a { 
+    color: rgb(207, 182, 182);
+    background-color: rgb(62, 26, 160);
+    padding: 4px 8px 10px 70px;
+}
+
+header a { 
+    text-decoration: underline;
+    color: rgb(167, 21, 21);
+}
+
+header nav { 
+    float: right;
+    margin: 8px 0;
+}
+
+.keys { 
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.work {
+    height: 200px;
+    width: 100% 100%;
+    margin-bottom: 25px;
+    background-image: url("images/tigWeld.jpeg");
+    background-size: 100% 100%; /* changed to percentages to improve load time. */
+    background-position: center;
+    text-align: right;
+}
+
+.primary_image {
+    height: auto;
+    width: 100%;
+    display: flexbox;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-spacing: 0px 5px;
+    float: left;
+}
+
+.primary {
+    height: auto;
+    width: 100%;
+    background-color: tomato;
+}
+
+.secondary_images {
+    height: 133px;
+    width: 393px;
+    margin: 20px 0px;
+    display: flex;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.secondary {
+    height: auto;
+    width: 100%;
+    background-color:turquoise;
+}
+
+.title_block p {
+    width: 200px;
+    height: 100px;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bolder;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: auto;
+    padding: 50px, 50px;
+}
+
+.sub_title {
+    text-align: center;
+    background-color: pink;
+    padding: 10px, 10px;
+    width: 280px;
+    height: 60px;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 130px;
+    float: right;
+}
+
+.row_format {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content {
+    margin: auto 60px auto 40px;
+}
+
+.content a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+table {
+   border-spacing: 10px 10px 10px 0px;
+   background-color: yellowgreen; 
+   width: 100%;
+}
+
+.work_left {
+    float: left;
+}
+
+.work_right {
+    float: right;
+}
+
+.content img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+}
+
+.footer_content {
+    text-align: center;
+    line-height: initial;
+    height:inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: lemonchiffon;
+}
+>>>>>>> Stashed changes
