@@ -155,6 +155,7 @@ p {
 .content a {
     text-decoration: underline;
     margin-left: 15px;
+    color: darkslategray;
 }
 
 table {
@@ -180,11 +181,11 @@ table {
 .footer_content {
     text-align: center;
     line-height: initial;
-    height:inherit;
+    height: inherit;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    display: flex;
+    display: flexbox;
     color: darkslategray;
     font-size: 25px;
 }
