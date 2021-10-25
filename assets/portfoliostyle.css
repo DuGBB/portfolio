@@ -70,14 +70,22 @@ p {
     position: relative;
 }
 
-.primary h2 {
+.primary p {
     position: absolute;
     bottom: 15%;
-    left: 5%;
+    left: 0%;
     background-color: darkslategray;
     margin: 0px;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 8px;
 }
 
+.smallertext{
+    background-color: darkslategray;
+    font-size: 13px;
+    font-weight: lighter;
+}
 .primary h3 {
     position: absolute;
     left: 5%;
