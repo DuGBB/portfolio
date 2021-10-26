@@ -1,17 +1,17 @@
-* {
+* {/*default catchall*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     background-color: lightgray;
 }
 
-header { 
+header { /*default header settings*/
     padding: 30px 30px 30px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #7a7a7a;
 }
 
-header h1 {
+header h1 {/*style for name*/
     display: inline-block;
     font-size: 32px;
     font-weight: bold;
@@ -20,31 +20,28 @@ header h1 {
     padding: 4px 8px 10px 70px;
 }
 
-header a { 
-    text-decoration: underline;
-    color: rgb(39, 37, 37);
-}
-
-header nav { 
+header nav { /*intra page links*/
     float: right;
     margin: 8px 0;
     background-color: #7a7a7a;
 }
 
-.keys { 
+.keys { /*hyperlink specific style*/
     display: inline-block;
     background-color: #7a7a7a;
     font-weight: lighter;
     font-size: 20px;
     padding: 10px 13px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: rgb(39, 37, 37);
 }
 
-p {
+p { /*yup*/
     font-size: 16px;
 }
 
-.work {
+.work {/*former work product(ask if curious)*/
     height: 200px;
     width: 100% 100%;
     margin-bottom: 25px;
@@ -54,7 +51,7 @@ p {
     text-align: right;
 }
 
-.primary_image {
+.primary_image {/*largest first image in the work setion*/
     height: 100%;
     width: 100%;
     display: flex;
@@ -64,13 +61,13 @@ p {
     position: relative;
 }
 
-.primary {
+.primary {/*primary image container*/
     height: auto;
     width: 100%;
     position: relative;
 }
 
-.primary p {
+.primary p {/* title on primary work image*/
     position: absolute;
     bottom: 15%;
     left: 0%;
@@ -81,13 +78,7 @@ p {
     padding: 8px;
 }
 
-.smallertext {
-    background-color: darkslategray;
-    font-size: 13px;
-    font-weight: lighter;
-}
-
-.secondary_images {
+.secondary_images {/*smaller size project images*/
     height: 133px;
     width: 393px;
     margin: 20px 0px;
@@ -97,13 +88,13 @@ p {
     position: relative;
 }
 
-.secondary {
+.secondary {/*container for secondary images*/
     height: auto;
     width: 100%;
     background-color:turquoise;
 }
 
-.work_left p {
+.work_left p {/* title block for secondary images*/
     position: absolute;
     bottom: 15%;
     left: 0%;
@@ -114,18 +105,18 @@ p {
     padding: 4px;
 }
 
-.smallertext{
+.smallertext{/*text style in subtitle boxes*/
     background-color: darkslategray;
     font-size: smaller;
     font-weight: lighter;
 }
 
-.secondary_smallertext{
+.secondary_smallertext{/*bottom smaller text in subtitles in work project images*/
     background-color: darkslategray;
     font-size: 7px;
     font-weight: lighter;
 }
-.title_block p {
+.title_block p {/*row header styles*/
     width: 200px;
     height: 100px;
     text-align: right;
@@ -137,7 +128,13 @@ p {
     padding: 50px, 50px;
 }
 
-.sub_title {
+.title_block {/*row header styles*/
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sub_title {/*welding picture subtitle*/
     text-align: center;
     background-color: rgb(150, 143, 143);
     padding: 10px, 10px;
@@ -150,13 +147,13 @@ p {
     float: right;
 }
 
-.row_format {
+.row_format {/*row style*/
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.vl {
+.vl {/*tall straight thing*/
     border-left: 6px solid rgb(119, 114, 114);
     height: auto;
     position: relative;
@@ -164,32 +161,32 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.content {/*margin for content boxes*/
     margin: auto 60px auto 40px;
 }
 
-.content a {
+.content a {/*formatting the footer links*/
     text-decoration: underline;
     margin-left: 15px;
     color: darkslategray;
 }
 
-table {
+table {/*style for the four smaller work links*/
    border-spacing: 10px 10px 10px 0px;
    width: 100%;
 }
 
-.work_left {
+.work_left {/*sets the two left smaller work links to the left*/
     float: left;
     position: relative;
 }
 
-.work_right {
+.work_right {/*set the two right smaller work links to the right*/
     float: right;
     position: relative;
 }
 
-.work_right p {
+.work_right p {/*subtitle style for the right two smaller work links*/
     position: absolute;
     bottom: 15%;
     left: 0%;
@@ -200,22 +197,35 @@ table {
     padding: 4px;
 }
 
-.content img {
+.content img {/*border style for content images*/
     border-style: solid;
-    border-color: rgb(49, 48, 48);
+    border-color: rgb(48, 49, 48);
     border-width: 3px;
     color: lightgrey;
+    justify-content: space-evenly;
 }
 
-.footer_content {
+.footer_content {/*style specifically for footer content*/
     text-align: center;
     line-height: initial;
     height: inherit;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
     color: darkslategray;
     font-size: 25px;
 }
+
+.footer_content a {/*make the foot flex*/
+    margin: auto;
+    flex: auto;
+}
+
+.footer_image {/*align footer image*/
+    vertical-align: middle;
+    margin: auto;
+}
+
 
