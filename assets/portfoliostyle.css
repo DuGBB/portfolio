@@ -81,17 +81,10 @@ p {
     padding: 8px;
 }
 
-.smallertext{
+.smallertext {
     background-color: darkslategray;
     font-size: 13px;
     font-weight: lighter;
-}
-.primary h3 {
-    position: absolute;
-    left: 5%;
-    bottom: 8%;
-    background-color: darkslategray;
-    margin: 12px 0px;
 }
 
 .secondary_images {
@@ -101,6 +94,7 @@ p {
     display: flex;
     border-style: solid;
     border-width: 5px;
+    position: relative;
 }
 
 .secondary {
@@ -109,6 +103,28 @@ p {
     background-color:turquoise;
 }
 
+.work_left p {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    background-color: darkslategray;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.smallertext{
+    background-color: darkslategray;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.secondary_smallertext{
+    background-color: darkslategray;
+    font-size: 7px;
+    font-weight: lighter;
+}
 .title_block p {
     width: 200px;
     height: 100px;
@@ -165,10 +181,23 @@ table {
 
 .work_left {
     float: left;
+    position: relative;
 }
 
 .work_right {
     float: right;
+    position: relative;
+}
+
+.work_right p {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    background-color: darkslategray;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
 }
 
 .content img {
