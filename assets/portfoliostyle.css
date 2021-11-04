@@ -165,6 +165,10 @@ p { /*yup*/
     margin: auto 60px auto 40px;
 }
 
+.content p {
+    text-align: center;
+}
+
 .content a {/*formatting the footer links*/
     text-decoration: underline;
     margin-left: 15px;
@@ -223,8 +227,9 @@ table {/*style for the four smaller work links*/
     flex: auto;
 }
 
-.footer_image {/*align footer image*/
-    vertical-align: middle;
+.aboutMe_image {/*align footer image*/
+    float: left;
+    /*vertical-align: middle;*/
     margin: auto;
 }
 

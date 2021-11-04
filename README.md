@@ -18,3 +18,6 @@ then you are taken to that deployed application
 # How to run
 To view, open this link in the browser of your choice:
 https://dugbb.github.io/portfolio/
+
+# Screenshot
+![portfolio screenshot](assets/images/portfolioScreenShot.png?raw=true "portfolio")
